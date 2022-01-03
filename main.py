@@ -7,6 +7,6 @@ with open('home.html', 'r') as html_file:
     soup = BeautifulSoup(content,'lxml')
     #print(soup.prettify)
 
-    tags = soup.find('h2')
+    tags = soup.find_all('h2')
     print(tags)
 
