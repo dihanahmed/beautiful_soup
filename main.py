@@ -7,9 +7,18 @@ with open('home.html', 'r') as html_file:
     soup = BeautifulSoup(content,'lxml')
     #print(soup.prettify)
 
-    keyword = soup.find_all('h2')
-    #print(courses_html_tags)
+    # course_html_tags = soup.find_all('h5')
+    # #print(courses_html_tags)
 
-    for word in keyword:
-        print(word.text)
+    # for course in course_html_tags :
+    #     print(course.text)
+
+    course_cards= soup.find_all('div',class_='card')
+    for course in course_cards:
+        course_name=course.h5.text
+        course_price= course.a.text
+
+        print(course_name)
+        print(course_price)
+
 
