@@ -24,5 +24,5 @@ for job in jobs:
     
     Company Name: {company_name}
     Required Skills:{skills}
-    
+    JOB_PUBLISHED_DATE:{job_published_date}
     ''')
