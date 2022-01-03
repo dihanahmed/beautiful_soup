@@ -14,6 +14,7 @@ company_name=jobs.find('h3', class_='joblist-comp-name').text
 
 skills= jobs.find('span',class_='srp-skills').text.replace(' ','')
 
+job_published_date=jobs.find('span',class_='sim-posted').text
 
 # print(company_name)
 
@@ -23,4 +24,5 @@ print(f'''
 
 Company Name: {company_name}
 Required Skills:{skills}
+Published Date:{job_published_date}
 ''')
