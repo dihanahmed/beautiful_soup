@@ -7,6 +7,9 @@ with open('home.html', 'r') as html_file:
     soup = BeautifulSoup(content,'lxml')
     #print(soup.prettify)
 
-    tags = soup.find_all('h2')
-    print(tags)
+    keyword = soup.find_all('h2')
+    #print(courses_html_tags)
+
+    for word in keyword:
+        print(word.text)
 
