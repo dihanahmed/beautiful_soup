@@ -10,11 +10,17 @@ jobs = soup.find('li',class_='clearfix job-bx wht-shd-bx')
 
 #print(jobs)
 
-company_name=jobs.find('h3', class_='joblist-comp-name').text.replace(' ','')
+company_name=jobs.find('h3', class_='joblist-comp-name').text
 
 skills= jobs.find('span',class_='srp-skills').text.replace(' ','')
 
 
-print(company_name)
+# print(company_name)
 
-print(skills)
+# print(skills)
+
+print(f'''
+
+Company Name: {company_name}
+Required Skills:{skills}
+''')
