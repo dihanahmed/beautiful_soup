@@ -16,7 +16,8 @@ for job in jobs:
         company_name=job.find('h3', class_='joblist-comp-name').text
 
         skills= job.find('span',class_='srp-skills').text.replace(' ','')
-
+        
+        more_info=job.header.h2.a['href']
 
 
         # print(company_name)
@@ -28,4 +29,5 @@ for job in jobs:
         print(f"Required Skills:{skills.strip()}")
         print(f"Released Date:{job_published_date.strip()}")
         
+        print(f'More Info:{more_info}')
         print('')
