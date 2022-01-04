@@ -27,3 +27,5 @@ for job in jobs:
         print(f"Company name:{company_name.strip()}")
         print(f"Required Skills:{skills.strip()}")
         print(f"Released Date:{job_published_date.strip()}")
+        
+        print('')
