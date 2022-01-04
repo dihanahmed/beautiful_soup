@@ -33,7 +33,7 @@ def find_jobs():
             if unfamiliar_skill not in skills:
                 for i in range(24):
                     filename="index"+str(i)+".txt"
-                    with open('posts/filename','w') as f:
+                    with open(filename,'w') as f:
 
 
                         f.write(f"Company name:{company_name.strip()} \n")
