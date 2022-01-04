@@ -1,3 +1,28 @@
 Company name:hk infosoft 
 Required Skills:python,django,,framework 
+Released Date:Posted few days agoCompany name:Pure Tech Codex Private Limited 
+Required Skills:rest,python,database,django,debugging,mongodb 
+Released Date:Posted few days agoCompany name:EAGateway Services India Pvt Ltd
+     (More Jobs) 
+Required Skills:python,pandas,numpy,git 
+Released Date:Posted few days agoCompany name:3RI Technologies Pvt Ltd 
+Required Skills:embeddedsystems,embeddedc,oscilloscope 
+Released Date:Posted few days agoCompany name:Gemini Solutions 
+Required Skills:python,mobile,svn,nosql,pythonscripting,git,api,sqldatabase 
+Released Date:Posted few days agoCompany name:TEAMPLUS STAFFING SOLUTION PVT. LTD. 
+Required Skills:python,pythonscripting,shellscripting,unix 
+Released Date:Posted few days agoCompany name:TandA HR Solutions 
+Required Skills:python,git,django 
+Released Date:Posted few days agoCompany name:TandA HR Solutions 
+Required Skills:python,git,django 
+Released Date:Posted few days agoCompany name:Visionpix Technologies LLP 
+Required Skills:python,oops,technicalskills, 
+Released Date:Posted few days agoCompany name:BRICKRED TECHNOLOGIES PVT. LTD. 
+Required Skills:imageprocessing,python,opencv 
+Released Date:Posted few days agoCompany name:BRICKRED TECHNOLOGIES PVT. LTD. 
+Required Skills:imageprocessing,python,opencv 
+Released Date:Posted few days agoCompany name:BRICKRED TECHNOLOGIES PVT. LTD. 
+Required Skills:imageprocessing,python,opencv 
+Released Date:Posted few days agoCompany name:hk infosoft 
+Required Skills:python,django,,framework 
 Released Date:Posted few days ago

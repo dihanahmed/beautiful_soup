@@ -1,0 +1,3 @@
+Company name:hk infosoft 
+Required Skills:python,django,,framework 
+Released Date:Posted few days ago
