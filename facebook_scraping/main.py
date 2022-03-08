@@ -3,12 +3,14 @@ import requests
 import time
 
 def find_jobs():
+    
     html_text=requests.get('https://www.facebook.com/').text
     #print(html_text)
 
     soup =BeautifulSoup(html_text, 'lxml')
 
     jobs = soup.find_all('div',class_='du4w35lb k4urcfbm l9j0dhe7 sjgh65i0')
+    #defining class of different fields from frontend source file
 
     print(jobs)
     
